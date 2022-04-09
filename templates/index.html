@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1 style="text-align:center;">Will default bo: Yeah or Nah</h1>
+        <form action= "http://127.0.0.1:5000/" method="post">
+            <p style="text-align:center;"> <strong>Income?</strong></p>
+            <p style="text-align:center;"> <input type="number" step="0.01" name="Income"></p>
+            <br>
+
+            <p style="text-align:center;"> <strong>Age?</strong></p>
+            <p style="text-align:center;"> <input type="number" step="0.01" name="Age"></p>
+            <br>
+
+            <p style="text-align:center;"> <strong>Amount of loan taken?</strong></p>
+            <p style="text-align:center;"> <input type="number" step="0.01" name="Loan"></p>
+
+            <br>
+            <p style="text-align:center;"> <input type="submit" value="Let's go"></p>
+        </form>
+        <p style="text-align:center;">{{result}}</p>
+        <p style="text-align:center;">{{result2}}</p>
+        <p style="text-align:center;">{{result3}}</p>
+    </body>
+</html>
